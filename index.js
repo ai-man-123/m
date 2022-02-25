@@ -69,7 +69,7 @@ const sleep = async (ms) => {
 }
 
 fakeimage = fs.readFileSync(`./lib/image/foto2.jpg`)
-fake = 'Simple Selfbot'
+fake = 'Aiman ❤zahira 🙄❤'
 prefix = 'z'
 apikey = 'LindowApi' // Free Apikey!
 hit_today = []
@@ -191,19 +191,19 @@ megayaa.on('chat-update', async(lin) => {
 	    	
         // Ucapan Waktu
         const hour_now = moment().format('HH')
-        var ucapanWaktu = 'Pagi lindow'
+        var ucapanWaktu = 'Pagi aiman'
         if (hour_now >= '03' && hour_now <= '10') {
-          ucapanWaktu = 'Pagi lindow'
+          ucapanWaktu = 'Pagi aiman'
         } else if (hour_now >= '10' && hour_now <= '14') {
-          ucapanWaktu = 'Siang lindow'
+          ucapanWaktu = 'Siang aiman'
         } else if (hour_now >= '14' && hour_now <= '17') {
-          ucapanWaktu = 'Soree lindow'
+          ucapanWaktu = 'Soree aiman'
         } else if (hour_now >= '17' && hour_now <= '18') {
           ucapanWaktu = 'Selamat petang'
         } else if (hour_now >= '18' && hour_now <= '23') {
-          ucapanWaktu = 'Malam lindow'
+          ucapanWaktu = 'Malam aiman'
         } else {
-          ucapanWaktu = 'Selamat Malam!'
+          ucapanWaktu = 'Selamat malam!'
         }
 
         const isImage = type == 'imageMessage'
@@ -278,11 +278,11 @@ To view your stat
 
 9. *${prefix}block*
 Block user
-Usage : ${prefix}block 62xxxx
+Usage : ${prefix}block 60xxxx
 
 10. *${prefix}unblock*
 Unblock user
-Usage : ${prefix}unblock 62xxxx
+Usage : ${prefix}unblock 60xxxx
 
 11. *${prefix}leave*
 To leave group
@@ -650,7 +650,7 @@ Join Group : https://chat.whatsapp.com/LeVT7RBq6WU1s92NIwdhfd`
                 megayaa.sendMessage(from, buff, MessageType.image, {caption: cn})
                 break
             case 'owner':
-                await wa.sendContact(from, owner, "Your Name")
+                await wa.sendContact(from, owner, "Aiman")
                 break
             case 'tiktok':
                 url = args.join(" ")
